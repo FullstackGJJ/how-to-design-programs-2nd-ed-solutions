@@ -11,3 +11,6 @@
 
 ## Exercise 4:
 `(string-append (substring str 0 5) (substring str (+ i 1) (string-length str)))` a value of i that is less than the length of the string are legitimate
+
+## Exercise 5:
+`(* (image-width cat) (image-height cat))`

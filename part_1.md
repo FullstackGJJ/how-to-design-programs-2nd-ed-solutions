@@ -33,4 +33,14 @@
   (= (image-height cat) (image-width cat))
   "square"
   "wide"))
-  ```
+```
+
+## Exercise 9:
+```
+(cond
+  [(string? in) (string-length in)]
+  [(image? in) (* (image-width in) (image-height in))]
+  [(number? in) (abs in)]
+  [in 10]
+  [(not in) 20])
+```

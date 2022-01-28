@@ -23,3 +23,14 @@
 
 ## Exercise 7:
 `(or (not sunny) friday)`
+
+## Exercise 8:
+```
+(if
+ (> (image-height cat) (image-width cat))
+ "tall"
+ (if
+  (= (image-height cat) (image-width cat))
+  "square"
+  "wide"))
+  ```

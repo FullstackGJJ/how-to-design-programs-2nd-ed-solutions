@@ -20,3 +20,6 @@
 
 ## Exercise 6:
 `(* (image-width cat) (image-height cat))`
+
+## Exercise 7:
+`(or (not sunny) friday)`

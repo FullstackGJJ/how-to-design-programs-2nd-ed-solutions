@@ -90,3 +90,9 @@ Unclear
   "square"
   "wide")))
 ```
+
+## Exercise 18
+```
+(define (string-join prefix suffix)
+  (string-append prefix "_" suffix))
+```

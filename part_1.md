@@ -52,3 +52,12 @@ NA
 (define (distance-from-origin x y)
   (sqrt (+ (sqr x) (sqr y))))
 ```
+
+## Exercise 12:
+```
+(define (cvolume length)
+  (expt length 3))
+
+(define (csurface length)
+  (* (sqr length) 6))
+```

@@ -44,3 +44,11 @@
   [in 10]
   [(not in) 20])
 ```
+## Exercise 10:
+NA
+
+## Exercise 11:
+```
+(define (distance-from-origin x y)
+  (sqrt (+ (sqr x) (sqr y))))
+```

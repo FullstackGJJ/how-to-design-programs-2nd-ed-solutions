@@ -61,3 +61,15 @@ NA
 (define (csurface length)
   (* (sqr length) 6))
 ```
+
+## Exercise 13:
+Unclear
+
+## Exercise 14:
+Unclear
+
+## Exercise 15:
+```
+(define (==> sunny friday)
+  (or (not sunny) friday))
+```

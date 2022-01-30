@@ -96,3 +96,9 @@ Unclear
 (define (string-join prefix suffix)
   (string-append prefix "_" suffix))
 ```
+
+## Exercise 19
+```
+(define (string-insert str i)
+  (string-append (substring str 0 i) "_" (substring str (+ i 1) (string-length str))))
+```

@@ -192,3 +192,31 @@ Year 2000 problem is good illustration for how perfect solutions don't exist and
 (define (string-last str)
   (substring str (- (string-length str) 1) (string-length str)))
 ```
+
+## Exercise 36:
+```
+; Image -> Number
+; gets the number of pixels in a given image
+(define (image-area image)
+  (* (image-width image) (image-height image)))
+```
+
+## Exercise 37:
+```
+; String -> String
+; get a new string that is str but with the first character removed
+; given: banana, expect: anana
+; given: apple, expect: pple
+(define (string-rest str)
+  (substring str 1 (string-length str)))
+```
+
+## Exercise 38:
+```
+; String -> String
+; get a new string that is str but with the last character removed
+; given: banana, expect: banan
+; given: apple, expect: appl
+(define (string-remove-last str)
+  (substring str 0 (- (string-length str) 1)))
+```

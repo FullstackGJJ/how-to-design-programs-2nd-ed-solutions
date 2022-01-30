@@ -63,7 +63,10 @@ NA
 ```
 
 ## Exercise 13:
-Unclear
+```
+(define (string-first str)
+  (substring str 0 1))
+```
 
 ## Exercise 14:
 Unclear

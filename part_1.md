@@ -91,26 +91,79 @@ Unclear
   "wide")))
 ```
 
-## Exercise 18
+## Exercise 18:
 ```
 (define (string-join prefix suffix)
   (string-append prefix "_" suffix))
 ```
 
-## Exercise 19
+## Exercise 19:
 ```
 (define (string-insert str i)
   (string-append (substring str 0 5) "_" (substring str 5 (string-length str))))
 ```
 
-## Exercise 20
+## Exercise 20:
 ```
 (define (string-delete str i)
   (string-append (substring str 0 5) (substring str (+ i 1) (string-length str))))
 ```
 
-## Exercise 21
+## Exercise 21:
 It does not  reuse the results of computation
 
-## Exercise 22
+## Exercise 22:
 It does match my intuition
+
+## Exercise 23:
+It works by grabbing the first substring of length 1 at the beginninng of the string
+
+## Exercise 24:
+#false
+
+## Exercise 25:
+Stepping through does not suggest a fix
+
+## Exercise 26:
+It replaces a character at the number with a "_"
+
+## Exercise 27:
+```
+(define attendance-at-benchmark-price 120)
+
+(define benchmark-price 5.0)
+
+(define change-in-attendance 15)
+
+(define change-in-price 0.1)
+
+(define (attendees ticket-price)
+  (-
+   attendance-at-benchmark-price
+   (*
+    (- ticket-price benchmark-price)
+    (/ change-in-attendance change-in-price))))
+```
+
+## Exercise 28:
+$2.90
+
+## Exercise 29:
+Removing the fixed cost but increasing variable cost to 1.50 made the most profitable price become $3.60 instead, but the revenue dropped from $1000 to $693
+
+## Exercise 30:
+`(define price-sensitivity (/ 15 0.1))`
+
+## Exercise 31:
+NA
+
+## Exercise 32:
+- Pressure sensor
+- Incoming notification from external service
+- Reacting to body signals
+- Touch screens input
+- Change in lighting sensed by cameras
+
+## Exercise 33:
+Year 2000 problem is good illustration for how perfect solutions don't exist and it's important to understand how to design programs and be adaptable and flexible
+

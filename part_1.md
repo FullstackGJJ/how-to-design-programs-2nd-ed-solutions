@@ -111,3 +111,6 @@ Unclear
 
 ## Exercise 21
 It does not  reuse the results of computation
+
+## Exercise 22
+It does match my intuition

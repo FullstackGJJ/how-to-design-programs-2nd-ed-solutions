@@ -102,3 +102,9 @@ Unclear
 (define (string-insert str i)
   (string-append (substring str 0 5) "_" (substring str 5 (string-length str))))
 ```
+
+## Exercise 20
+```
+(define (string-delete str i)
+  (string-append (substring str 0 5) (substring str (+ i 1) (string-length str))))
+```

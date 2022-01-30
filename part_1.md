@@ -170,3 +170,13 @@ NA
 ## Exercise 33:
 Year 2000 problem is good illustration for how perfect solutions don't exist and it's important to understand how to design programs and be adaptable and flexible
 
+## Exercise 34:
+```
+; String -> String
+; gets the first single char of str as a string
+; given: apple, expect: a
+; given: banana, expect: b
+(define (string-first str)
+  (substring str 0 1))
+```
+

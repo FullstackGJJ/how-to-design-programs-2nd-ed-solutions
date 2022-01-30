@@ -73,3 +73,8 @@ Unclear
 (define (==> sunny friday)
   (or (not sunny) friday))
 ```
+## Exercise 16:
+```
+(define (image-area image)
+  (* (image-width image) (image-height image)))
+```

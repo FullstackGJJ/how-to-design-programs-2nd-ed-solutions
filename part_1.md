@@ -78,3 +78,15 @@ Unclear
 (define (image-area image)
   (* (image-width image) (image-height image)))
 ```
+
+## Exercise 17:
+```
+(define (image-classify image)
+  (if
+ (> (image-height image) (image-width image))
+ "tall"
+ (if
+  (= (image-height image) (image-width image))
+  "square"
+  "wide")))
+```

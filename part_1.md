@@ -108,3 +108,6 @@ Unclear
 (define (string-delete str i)
   (string-append (substring str 0 5) (substring str (+ i 1) (string-length str))))
 ```
+
+## Exercise 21
+It does not  reuse the results of computation

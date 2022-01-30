@@ -69,7 +69,10 @@ NA
 ```
 
 ## Exercise 14:
-Unclear
+```
+(define (string-last str)
+  (substring str (- (string-length str) 1) (string-length str)))
+```
 
 ## Exercise 15:
 ```
@@ -180,3 +183,12 @@ Year 2000 problem is good illustration for how perfect solutions don't exist and
   (substring str 0 1))
 ```
 
+## Exercise 35:
+```
+; String -> String
+; gets the last single char of str as a string
+; given: apple, expect: e
+; given: banana, expect: a
+(define (string-last str)
+  (substring str (- (string-length str) 1) (string-length str)))
+```

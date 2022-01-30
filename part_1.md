@@ -100,5 +100,5 @@ Unclear
 ## Exercise 19
 ```
 (define (string-insert str i)
-  (string-append (substring str 0 i) "_" (substring str (+ i 1) (string-length str))))
+  (string-append (substring str 0 5) "_" (substring str 5 (string-length str))))
 ```

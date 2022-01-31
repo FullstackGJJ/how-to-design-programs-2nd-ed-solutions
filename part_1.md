@@ -220,3 +220,15 @@ Year 2000 problem is good illustration for how perfect solutions don't exist and
 (define (string-remove-last str)
   (substring str 0 (- (string-length str) 1)))
 ```
+
+## Exercise 39:
+```
+(define (car-image wheel-radius)
+  (overlay/xy
+    (rectangle (* wheel-radius 5) (* wheel-radius 2) "solid" "red")
+    0 wheel-radius
+    (overlay/xy
+      (circle wheel-radius "solid" "black")
+      (* 3 wheel-radius) 0
+      (circle wheel-radius "solid" "black"))))
+```

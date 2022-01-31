@@ -232,3 +232,14 @@ Year 2000 problem is good illustration for how perfect solutions don't exist and
       (* 3 wheel-radius) 0
       (circle wheel-radius "solid" "black"))))
 ```
+
+## Exercise 40:
+```
+; WorldState -> WorldState 
+; moves the car by 3 pixels for every clock tick
+; examples: 
+(check-expect (tock 20) 23)
+(check-expect (tock 78) 81)
+(define (tock cw)
+  (+ cw 3))
+```
